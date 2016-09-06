@@ -1,0 +1,128 @@
+.bloggersfriend_item {
+  font-size: 14px;
+  margin: .5em 0 1em 0;
+  padding: 25px 10px 25px 10px;
+  border: 1px solid #ddd;
+  position: relative;
+  display: block;
+  background: white url(../images/bigicon.png) no-repeat right bottom;
+  color: #333;
+}
+.bloggersfriend_item a {
+  color: #e47911;
+  text-decoration: none;
+}
+.bloggersfriend_item a:hover {
+  color: #996633;
+}
+.bloggersfriend_item * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.bloggersfriend_item .bloggersfriend_indicator {
+  margin: 0 10px;
+  clear: both;
+}
+.bloggersfriend_item .bloggersfriend_indicator .bloggersfriend_indicator_img {
+  float: left;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: transparent url(../images/ajax-loader.gif) no-repeat center;
+}
+.bloggersfriend_item .bloggersfriend_indicator .bloggersfriend_indicator_title {
+  display: block;
+  line-height: 32px;
+  margin-left: 42px;
+}
+.bloggersfriend_item .bloggersfriend_indicator .bloggersfriend_indicator_footer {
+  clear: both;
+}
+.bloggersfriend_item .bloggersfriend_image {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.bloggersfriend_item .bloggersfriend_info {
+  display: block;
+}
+.bloggersfriend_item .bloggersfriend_info h4 {
+  margin: 0 0 5px;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  clear: none;
+  border: none;
+}
+.bloggersfriend_item .bloggersfriend_info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bloggersfriend_item .bloggersfriend_info ul li {
+  list-style: none;
+  line-height: 1.5em;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+.bloggersfriend_item .bloggersfriend_info ul li b {
+  margin-right: .5em;
+  color: #555;
+  font-weight: normal;
+}
+.bloggersfriend_item .bloggersfriend_info .bloggersfriend_price {
+  color: #900;
+}
+.bloggersfriend_item .bloggersfriend_info .bloggersfriend_price span {
+  color: #666;
+  margin-left: .5em;
+}
+.bloggersfriend_item .bloggersfriend_info .bloggersfriend_listprice {
+  text-decoration: line-through;
+}
+.bloggersfriend_item .bloggersfriend_review {
+  padding: 0;
+  font-size: 0.7em;
+  position: absolute;
+  right: 34px;
+  bottom: 4px;
+}
+#preview .bloggersfriend_item .bloggersfriend_review {
+  display: none;
+}
+.bloggersfriend_item .bloggersfriend_footer {
+  clear: both;
+}
+
+.bloggersfriend_book .bloggersfriend_info ul,
+.bloggersfriend_music .bloggersfriend_info ul {
+  margin-top: 0.5em;
+}
+
+.bloggersfriend_book .bloggersfriend_info ul li,
+.bloggersfriend_music .bloggersfriend_info ul li {
+  line-height: 1.6em;
+}
+
+@media (max-width: 720px) {
+  .bloggersfriend_item .bloggersfriend_info {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .bloggersfriend_item img {
+    width: 60px;
+    max-width: 60px;
+  }
+  .bloggersfriend_item .bloggersfriend_info {
+    margin-left: 70px !important;
+  }
+  .bloggersfriend_item .bloggersfriend_info h4 a {
+    font-size: 0.9em;
+  }
+  .bloggersfriend_item .bloggersfriend_info ul li {
+    font-size: 0.9em;
+  }
+}
